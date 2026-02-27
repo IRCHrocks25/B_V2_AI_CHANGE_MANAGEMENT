@@ -39,7 +39,8 @@ export default function Frame1707482421() {
           </p>
 
           <button
-            className="flex items-center justify-center w-full sm:w-auto px-[28px] md:px-[43px] py-[11px] rounded-[27.612px] cursor-pointer border-0"
+            onClick={() => window.open('https://kaneandalessia.com', '_blank', 'noopener,noreferrer')}
+            className="flex items-center justify-center w-full sm:w-auto px-[28px] md:px-[43px] py-[11px] rounded-[27.612px] cursor-pointer border-0 hover:opacity-90 transition-opacity"
             style={{ backgroundImage: gradientBtn }}
           >
             <span className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold text-[13px] sm:text-[15px] md:text-[16.567px] leading-[20.709px] text-white uppercase">
