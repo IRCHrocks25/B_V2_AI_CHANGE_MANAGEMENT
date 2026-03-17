@@ -13,14 +13,12 @@ export default function WorkshopForm() {
   const { isOpen, closeForm } = useWorkshopForm();
 
   React.useEffect(() => {
-    // Load the form embed script
     const script = document.createElement("script");
     script.src = "https://l.industryrockstars.ch/js/form_embed.js";
     script.async = true;
     document.body.appendChild(script);
 
     return () => {
-      // Cleanup script on unmount
       const existingScript = document.querySelector(
         'script[src="https://l.industryrockstars.ch/js/form_embed.js"]'
       );
@@ -39,20 +37,20 @@ export default function WorkshopForm() {
               AI Change Management Workshop
             </DialogTitle>
             <p className="font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium text-[#0d1353] text-[16px] md:text-[18px]">
-              Saturday 14th March 2026 9:AM PST
+              Saturday 28th March 2026 9:00 AM PST
             </p>
           </div>
         </DialogHeader>
-        <div className="w-full" style={{ height: "593px" }}>
+        <div className="w-full" style={{ height: "566px" }}>
           <iframe
-            src="https://l.industryrockstars.ch/widget/form/fzCQlAmoUcjf5ymPGPzp"
+            src="https://l.industryrockstars.ch/widget/form/bEgSoPVsNkMA0i7narvB"
             style={{
               width: "100%",
               height: "100%",
               border: "none",
               borderRadius: "32px",
             }}
-            id="inline-fzCQlAmoUcjf5ymPGPzp"
+            id="inline-bEgSoPVsNkMA0i7narvB"
             data-layout='{"id":"INLINE"}'
             data-trigger-type="alwaysShow"
             data-trigger-value=""
@@ -60,15 +58,14 @@ export default function WorkshopForm() {
             data-activation-value=""
             data-deactivation-type="neverDeactivate"
             data-deactivation-value=""
-            data-form-name="AI Change Management"
-            data-height="593"
-            data-layout-iframe-id="inline-fzCQlAmoUcjf5ymPGPzp"
-            data-form-id="fzCQlAmoUcjf5ymPGPzp"
-            title="AI Change Management"
+            data-form-name="FB - AI Change Management - March 28, 2026"
+            data-height="566"
+            data-layout-iframe-id="inline-bEgSoPVsNkMA0i7narvB"
+            data-form-id="bEgSoPVsNkMA0i7narvB"
+            title="FB - AI Change Management - March 28, 2026"
           />
         </div>
       </DialogContent>
     </Dialog>
   );
 }
-
